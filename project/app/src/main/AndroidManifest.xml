@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <application
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher"
-        android:supportsRtl="true"
-        android:configChanges="keyboardHidden|orientation"
-        android:theme="@style/Theme.Registrasi"
-        tools:targetApi="31">
-        <activity
-            android:name=".SplashScreen"
-=======
-
-=======
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
->>>>>>> c0d8ca0 (fix(android): adding class and update manifest)
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -33,12 +14,7 @@
         android:theme="@style/Theme.Registrasi"
         tools:targetApi="31">
         <activity
-<<<<<<< HEAD
-            android:name=".MainActivity"
->>>>>>> 739b491 (feat(android): splashscreen)
-=======
             android:name=".SplashScreen"
->>>>>>> c0d8ca0 (fix(android): adding class and update manifest)
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,18 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-<<<<<<< HEAD
-        <activity android:name=".MainActivity"
-            android:exported="true"/>
-=======
->>>>>>> 739b491 (feat(android): splashscreen)
-=======
         <activity android:name=".MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:parentActivityName=".MainActivity"></activity>
->>>>>>> c0d8ca0 (fix(android): adding class and update manifest)
     </application>
 
 </manifest>
