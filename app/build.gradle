@@ -3,6 +3,7 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace 'ac.id.itech.registrasi'
     compileSdk 32
 
@@ -13,6 +14,19 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+=======
+    namespace 'com.example.registrasi'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.example.registrasi"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+>>>>>>> 739b491 (feat(android): splashscreen)
     }
 
     buildTypes {
@@ -25,6 +39,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+<<<<<<< HEAD
 }
 
 dependencies {
@@ -49,4 +64,17 @@ dependencies {
     implementation 'com.google.code.gson:gson:2.8.6'
     implementation 'androidx.cardview:cardview:1.0.0'
     implementation 'com.android.volley:volley:1.2.1'
+=======
+    buildToolsVersion '34.0.0'
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+>>>>>>> 739b491 (feat(android): splashscreen)
 }

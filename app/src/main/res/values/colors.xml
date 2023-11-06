@@ -2,6 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+<<<<<<< HEAD
     <color name="colorLink">#f00</color>
     <color name="PrimaryColor">#ff0</color>
+=======
+    <color name="colorLink">#F00</color>
+    <color name="PrimaryColor">#444453</color>
+>>>>>>> 739b491 (feat(android): splashscreen)
 </resources>
