@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="619dp"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="65dp"
+            tools:context=".MainActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAMA LENGKAP"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextNAMA_LENGKAP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIK"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextNIK"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PEMINATAN JURUSAN"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextPEMINATAN_JURUSAN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TAHUN LULUS"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextTAHUN_LULUS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASAL SEKOLAH"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextASAL_SEKOLAH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ASAL WILAYAH"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextASAL_WILAYAH"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NILAI AKHIR"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextNILAI_AKHIR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEMPAT LAHIR"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextTEMPAT_LAHIR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TANGGAL LAHIR"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextTANGGAL_LAHIR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableRight="@android:drawable/ic_menu_my_calendar"
+                android:textColor="#000"
+                android:textColorHint="#f00" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NO HP"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextNO_HP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:textColor="#000" />
+
+            <EditText
+                android:id="@+id/editTextEMAIL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000" />
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="75dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/buttonInsert"
+                    android:layout_width="213dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="2sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginTop="0sp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:divider="#444"
+                    android:dividerHeight="12dp"
+                    android:drawableRight="@android:drawable/ic_menu_upload"
+                    android:gravity="center"
+                    android:text="Simpan"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold|normal"
+                    android:transcriptMode="normal" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="2sp"
+                    android:layout_marginTop="0sp"
+                    android:gravity="center"
+                    android:text="Or"
+                    android:textColor="#ffffff"
+                    android:textColorHint="#fff"
+                    android:textStyle="bold|normal" />
+                <Button
+                    android:id="@+id/buttonClear"
+                    android:layout_width="208dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginRight="2sp"
+                    android:layout_marginTop="0sp"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:background="@color/PrimaryColor"
+                    android:divider="#444"
+                    android:dividerHeight="12dp"
+                    android:drawableRight="@android:drawable/ic_input_delete"
+                    android:gravity="center"
+                    android:text="Reset"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold|normal"
+                    android:transcriptMode="normal" />
+
+            </LinearLayout>
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="5sp"-->
+<!--                android:layout_marginLeft="5sp"-->
+<!--                android:layout_marginRight="2sp"-->
+<!--                android:layout_marginTop="0sp"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Or"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:textColorHint="#fff"-->
+<!--                android:textStyle="bold|normal" />-->
+<!--            <Button-->
+<!--                android:id="@+id/buttonList"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginBottom="5sp"-->
+<!--                android:layout_marginLeft="5sp"-->
+<!--                android:layout_marginRight="2sp"-->
+<!--                android:layout_marginTop="0sp"-->
+<!--                android:layout_weight="1"-->
+<!--                android:adjustViewBounds="true"-->
+<!--                android:background="@color/PrimaryColor"-->
+<!--                android:divider="#444"-->
+<!--                android:dividerHeight="12dp"-->
+<!--                android:drawableRight="@android:drawable/ic_input_get"-->
+<!--                android:gravity="center"-->
+<!--                android:text="List"-->
+<!--                android:textColor="#ffffff"-->
+<!--                android:textStyle="bold|normal"-->
+<!--                android:transcriptMode="normal" />-->
+        </LinearLayout>
+</ScrollView>
+
