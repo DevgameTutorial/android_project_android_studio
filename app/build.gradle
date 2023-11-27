@@ -4,15 +4,24 @@ plugins {
 
 android {
 <<<<<<< HEAD
+<<<<<<< HEAD
     namespace 'ac.id.itech.registrasi'
     compileSdk 32
 
     defaultConfig {
         applicationId "ac.id.itech.registrasi"
+=======
+    namespace 'ac.id.itech.pendaftaran'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "ac.id.itech.pendaftaran"
+>>>>>>> 4094d90 (feat(resource): local)
         minSdk 21
         targetSdk 32
         versionCode 1
         versionName "1.0"
+<<<<<<< HEAD
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 =======
     namespace 'com.example.registrasi'
@@ -27,6 +36,10 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 >>>>>>> 739b491 (feat(android): splashscreen)
+=======
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+>>>>>>> 4094d90 (feat(resource): local)
     }
 
     buildTypes {
@@ -39,6 +52,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -66,6 +80,8 @@ dependencies {
     implementation 'com.android.volley:volley:1.2.1'
 =======
     buildToolsVersion '34.0.0'
+=======
+>>>>>>> 4094d90 (feat(resource): local)
 }
 
 dependencies {
@@ -76,5 +92,10 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+<<<<<<< HEAD
 >>>>>>> 739b491 (feat(android): splashscreen)
+=======
+    implementation 'com.android.volley:volley:1.2.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+>>>>>>> 4094d90 (feat(resource): local)
 }

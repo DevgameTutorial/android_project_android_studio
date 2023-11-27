@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Registrasi Mahasiswa</string>
+    <string name="insert">Insert  Mahasiswa</string>
+    <string name="get">Diplay Mahasiswa</string>
+</resources>

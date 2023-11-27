@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
+<<<<<<< HEAD
     <domain-config cleartextTrafficPermitted="false">
         <domain includeSubdomains="true">ec2-44-218-142-59.compute-1.amazonaws.com</domain>
     </domain-config>
+=======
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+>>>>>>> 4094d90 (feat(resource): local)
 </network-security-config>
